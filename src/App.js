@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import CardsContainer from "./Components/CardsContainer";
+import Filter from "./Components/Filter";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles.css";
+import CardsState from "./Contexts/CardsContext/CardsState";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CardsState>
+      <div className="col-12 bg-color-gray">
+        <h1>SpaceX Launch Programs</h1>
+        <div className="col-12 container-fluid p-0 m-0 row">
+          <div className="col-md-2 p-0">
+            <Filter />
+          </div>
+          <div className="col-md-9 p-0">
+            <CardsContainer />
+          </div>
+        </div>
+      </div>
+    </CardsState>
   );
 }
 
