@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/internship-project-techdome/static/css/main.9f948f1d.css",
-    "main.js": "/internship-project-techdome/static/js/main.a28e4b63.js",
-    "index.html": "/internship-project-techdome/index.html",
-    "main.9f948f1d.css.map": "/internship-project-techdome/static/css/main.9f948f1d.css.map",
-    "main.a28e4b63.js.map": "/internship-project-techdome/static/js/main.a28e4b63.js.map"
+    "main.css": "/internship_assignment/static/css/main.9f948f1d.css",
+    "main.js": "/internship_assignment/static/js/main.a28e4b63.js",
+    "index.html": "/internship_assignment/index.html",
+    "main.9f948f1d.css.map": "/internship_assignment/static/css/main.9f948f1d.css.map",
+    "main.a28e4b63.js.map": "/internship_assignment/static/js/main.a28e4b63.js.map"
   },
   "entrypoints": [
     "static/css/main.9f948f1d.css",
